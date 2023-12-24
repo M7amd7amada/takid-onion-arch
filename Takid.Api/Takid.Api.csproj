@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <UserSecretsId>23c4187d-7c12-4d12-8d54-3f69322c029b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="Mapster.DependencyInjection" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Takid.Application\Takid.Application.csproj" />
+    <ProjectReference Include="..\Takid.Contracts\Takid.Contracts.csproj" />
+    <ProjectReference Include="..\Takid.infrastructure\Takid.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

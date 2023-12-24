@@ -1,0 +1,10 @@
+@host = https://localhost:44350
+
+GET {{host}}/report/get
+Content-Type: application/json
+
+{
+    "companyId" : 1033,
+    "startDate" : "2022-01-01",
+    "endDate" : "2024-01-01"
+}
