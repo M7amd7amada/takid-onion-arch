@@ -1,6 +1,6 @@
 @host = https://localhost:44350
 
-GET {{host}}/api/Reports/GetTopWorkingEmployees
+GET {{host}}/api/Reports/GetTopWorkingSupervisors
 Content-Type: application/json
 
 {

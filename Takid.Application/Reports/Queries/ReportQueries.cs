@@ -7,6 +7,7 @@ namespace Takid.Application.Reports.Queries;
 public record TopWorkingEmployeesQuery(
     int CompanyId
 ) : IRequest<ErrorOr<TopWorkingEmployeesResult>>;
+
 public record TopWorkingSupervisorsQuery(
     int CompanyId
 ) : IRequest<ErrorOr<TopWorkingSupervisorsResult>>;

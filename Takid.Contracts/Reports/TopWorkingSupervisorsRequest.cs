@@ -1,5 +1,5 @@
 namespace Takid.Contracts.Reports;
 
-public record TopWorkingEmployeesRequest(
+public record TopWorkingSupervisorsRequest(
     int CompanyId
 );
